@@ -1,0 +1,49 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStxCBJnMMgSHMWrK5YMGu8J8yyWhcXDhGmxA&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#stop-watch {
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+}
+
+#stop-watch div {
+    height: 150px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStxCBJnMMgSHMWrK5YMGu8J8yyWhcXDhGmxA&s);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#stop-watch div>span {
+    font-size: 26px;
+}
+
+#stop-watch div>button {
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 30px;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStxCBJnMMgSHMWrK5YMGu8J8yyWhcXDhGmxA&s);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+} */
