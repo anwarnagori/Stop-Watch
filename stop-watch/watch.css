@@ -1,4 +1,4 @@
-/* * {
+* {
     margin: 0;
     padding: 0;
 }
@@ -32,7 +32,7 @@ h1 {
     align-items: center;
     justify-content: space-evenly;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStxCBJnMMgSHMWrK5YMGu8J8yyWhcXDhGmxA&s);
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    box-shadow: 10px 5px 5px #100c20
 }
 
 #stop-watch div>span {
@@ -42,8 +42,44 @@ h1 {
 #stop-watch div>button {
     height: 40px;
     width: 100px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
     border: none;
     border-radius: 30px;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStxCBJnMMgSHMWrK5YMGu8J8yyWhcXDhGmxA&s);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-} */
+    box-shadow: 8px 5px 5px #000000;
+}
+
+#stop-watch div>button:hover {
+    cursor: pointer;
+}
+
+.contect {
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    background-color: #370ce3;
+    color: #fff;
+    position: fixed;
+    top: 600px;
+    left: 1050px;
+    box-shadow: 10px 5px 5px #000000;
+}
+
+@media only screen and (max-width:600px) {
+    #stop-watch {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        position: relative;
+        bottom: 100px;
+    }
+
+    #stop-watch div {
+        height: 140px;
+        width: 230px;
+    }
+}
