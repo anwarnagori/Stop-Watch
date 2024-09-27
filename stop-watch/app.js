@@ -1,14 +1,14 @@
-var min = 0;
-var sec = 0;
-var msec = 0;
+let min = 0;
+let sec = 0;
+let msec = 0;
 
-var htmlmin = document.getElementById("min");
-var htmlsec = document.getElementById("sec");
-var htmlmsec = document.getElementById("msec");
+let htmlmin = document.getElementById("min");
+let htmlsec = document.getElementById("sec");
+let htmlmsec = document.getElementById("msec");
 
-var interval;
+let interval;
 
-var disabledBtn = document.getElementById("start");
+let disabledBtn = document.getElementById("start");
 
 function start() {
     interval = setInterval(() => {
@@ -25,7 +25,7 @@ function start() {
             sec = 0;
         }
         disabledBtn.disabled = true;
-    }, 1);
+    }, 0);
 }
 
 function pause() {
@@ -34,9 +34,9 @@ function pause() {
 }
 
 function reset() {
-    var min = 0;
-    var sec = 0;
-    var msec = 0;
+    let min = 0;
+    let sec = 0;
+    let msec = 0;
 
     htmlmin.innerHTML = min;
     htmlsec.innerHTML = sec;
